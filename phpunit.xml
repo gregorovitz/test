@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        backupGlobals="true"
+        colors="true"
+        stopOnFailure="false"
+        bootstrap="tests/bootstrap.php">
+
+    
+
+    <testsuite name="CalculatorApp Test Suite">
+        <directory suffix=".php">./testsunit</directory>
+    </testsuite>
+
+</phpunit>
