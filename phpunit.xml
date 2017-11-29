@@ -3,7 +3,7 @@
         backupGlobals="true"
         colors="true"
         stopOnFailure="false"
-        bootstrap="tests/bootstrap.php">
+        bootstrap="testunit/bootstrap.php">
 
     
 
