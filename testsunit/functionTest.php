@@ -10,13 +10,13 @@ require 'includes/function.php'
  */
 class functionTest extends TestCase{
 	
-	public function testverif_pwd()
-	private $mdp='pomme';
-	private $hashedPwd ;
-	$hashedPwd = password_hash($mdp, PASSWORD_DEFAULT);
-	$value =verif_pwd($mdp,$hashedPwd)
-	assertTrue($value=true);
+	public function testverif_pwd(){
+		private $mdp='pomme';
+		private $hashedPwd ;
+		$hashedPwd = password_hash($mdp, PASSWORD_DEFAULT);
+		$value =verif_pwd($mdp,$hashedPwd)
+		assertTrue($value=true);
 	
-	
+	}
    
 }
