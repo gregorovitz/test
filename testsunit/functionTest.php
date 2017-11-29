@@ -11,7 +11,8 @@ require 'includes/function.php'
 class functionTest extends TestCase{
 	
 	public function testverif_pwd()
-	$mdp='pomme'
+	private $mdp='pomme';
+	private $hashedPwd ;
 	$hashedPwd = password_hash($mdp, PASSWORD_DEFAULT);
 	$value =verif_pwd($mdp,$hashedPwd)
 	assertEquals($value=true);
