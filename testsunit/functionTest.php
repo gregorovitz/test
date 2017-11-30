@@ -3,7 +3,7 @@
 namespace Testsunit;
 
 use PHPUnit\Framework\TestCase;
-require 'includes/function.php'
+require 'includes/function.php';
 
 /**
  * Class functionTest.
