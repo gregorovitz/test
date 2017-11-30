@@ -8,7 +8,7 @@ require 'includes/function.php'
 /**
  * Class functionTest.
  */
-class functionTest extends TestCase{
+class functionTest {
 	
 	public function testverif_pwd(){
 		$mdp='pomme';
